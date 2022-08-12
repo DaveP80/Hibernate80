@@ -1,7 +1,4 @@
 package com.logic.Hibernate80.model;
-
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-
 import javax.persistence.*;
 
 @Entity
@@ -46,6 +43,5 @@ public class Users {
     public void setPassword(String password) {
         this.password = password;
     }
-
 
 }
